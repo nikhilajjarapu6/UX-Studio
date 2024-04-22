@@ -351,3 +351,189 @@
         width: 100%;
     }
 }
+@media screen and (max-width: 720px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 20px 20px;
+    }
+
+    .navbar h2 {
+        margin-left: 0;
+        margin: 10px 0px;
+        color: rgba(81, 0, 231, 0.795);
+    }
+
+    .media-icons {
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+
+    .profile {
+        height: 300px;
+        padding: 100px 10px;
+    }
+
+    .text {
+        padding: 20px 10px;
+        text-align: center;
+    }
+
+    .text h1 {
+        font-size: 30px;
+    }
+
+    .text h2 {
+        font-size: 20px;
+    }
+
+    .text button {
+        margin-top: 10px;
+    }
+
+    .section2 img {
+        height: 200px;
+        width: 200px;
+    }
+
+    .section2 h1 {
+        font-size: 20px;
+    }
+
+    .second {
+        padding: 10px;
+        margin-bottom: -30px;
+    }
+
+    .second .about .about-me {
+        width: 100%;
+    }
+
+    .second .bio {
+        font-size: 10px;
+    }
+
+    .container-box {
+        margin-top: -100px;
+    }
+
+    .box {
+        width: 100%;
+    }
+
+    .row {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: auto;
+        gap: 20px;
+    }
+
+    .row div {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .row h1,
+    .row p {
+        font-size: 16px;
+    }
+
+    .footer-div {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 900px)  {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 20px 20px;
+    }
+
+    .navbar h2 {
+        margin-left: 0;
+        margin: 10px 0px;
+        color: rgba(81, 0, 231, 0.795);
+    }
+
+    .media-icons {
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+
+    .profile {
+        height: 400px;
+        padding: 150px 20px;
+    }
+
+    .text {
+        padding: 20px 20px;
+        text-align: center;
+    }
+
+    .text h1 {
+        font-size: 40px;
+        color: green;
+    }
+
+    .text h2 {
+        font-size: 25px;
+    }
+
+    .text button {
+        margin-top: 20px;
+        margin: 20px auto;
+    }
+
+    .section2 {
+        padding: 0 10px;
+    }
+
+    .second {
+        padding: 20px;
+        margin-bottom: -80px;
+    }
+
+    .second .about {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .second .about .about-me {
+        width: 90%;
+    }
+    .second .bio {
+        font-size: 12px;
+    }
+
+    .container-box {
+        margin-top: -100px;
+    }
+
+    .box {
+        width: 100%;
+    }
+
+    .row {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: auto;
+        gap: 30px;
+    }
+
+    .row div {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .row h1,
+    .row p {
+        font-size: 16px;
+    }
+
+    .footer-div {
+        width: 100%;
+    }
+}
